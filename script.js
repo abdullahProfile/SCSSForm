@@ -7,7 +7,7 @@ function handlesubmit() {
   if(name === "" ){
     alert("Enter Name");
   }else if (isNaN(password) || !Number.isInteger(Number(password))) {
-    alert("Enter Password & Password Must be Intgers");
+    alert("Enter Password & Password Must be Integers");
   }
   else {
     alert("data submited");
