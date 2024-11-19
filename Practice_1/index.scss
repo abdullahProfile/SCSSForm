@@ -1,0 +1,44 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$primary-bg-color:rgb(48, 48, 48);
+$primary-font-color:#fff;
+$secondary-bg-color: rgb(17, 116, 17);
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+form {
+  max-width: 300px;
+  padding: 10px 20px;
+  box-shadow: 4px 0 2px 2px #635c5c;
+  border: 2px solid currentColor;
+  margin: 50px 0;
+  margin-inline: auto;
+  border-radius: 10px;
+
+  input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 2px solid gray;
+
+    ::placeholder {
+      color: $primary-font-color;
+    }
+  }
+
+  button {
+    padding: 10px 15px;
+    background-color: $secondary-bg-color;
+    color: $primary-font-color;
+    border: 0;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+}
